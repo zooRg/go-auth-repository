@@ -1,13 +1,16 @@
-# go-auth-repository
+# go-todo
+## todo app 
+### use postgres and golang
+#
 
 use `go run cmd/main.go`
 
-##### user method
+#### user method
 `POST /auth/registration`
 
 `POST /auth/login            `
 
-##### list method
+#### list method
 `POST /lists/                `
 
 `GET /lists/                `
@@ -18,7 +21,7 @@ use `go run cmd/main.go`
 
 `DELETE /lists/:id             `
 
-##### api method
+#### api method
 `POST /api/:id/items/        `
 
 `GET /api/:id/items/        `
